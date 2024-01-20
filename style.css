@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+#container{
+width: 40%;
+height: 80vh;
+margin: 0 auto;
+gap: 0px;
+position: relative;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin-top: 85px;
+}
+.box{
+    height: 9rem;
+    width: 9rem;
+    background-color: rgb(44, 44, 44);
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.lighter{
+    background-color: rgb(128, 128, 128);
+}
